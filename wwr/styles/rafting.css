@@ -26,6 +26,7 @@ header {
     grid-template-columns: 1fr 2fr;
     place-items: center;
     z-index: 1;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
 }
 
 header .logo{
@@ -97,6 +98,7 @@ header a{
     border-radius: 10px;
     text-align: center;
     justify-content: center;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
 }
 
 .hero article img {
@@ -167,6 +169,7 @@ header a{
     display: flex;
     flex-flow: column;
     margin: 10px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
 }
 
 .adventure figcaption{
