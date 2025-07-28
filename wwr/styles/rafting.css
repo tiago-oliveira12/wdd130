@@ -21,6 +21,7 @@ body {
 header {
     width: 100%;
     position: fixed;
+    top: 0;
     background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -204,4 +205,237 @@ footer nav{
 
 footer nav a{
     margin: 3px;
+}
+
+.team_map{
+    margin-top: 110px;
+    padding: 30px 40px 30px 30px;
+    background-color: var(--primary-color);
+    height: 400px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.team_map h2{
+    color: var(--secondary-color);
+}
+
+.team p{
+    color: var(--secondary-color);
+    position: absolute;
+    margin: 10px 90px 70px 70px;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.team img{
+    object-fit: cover;
+    height: 40vh;
+    max-width: 17vw;
+}
+
+.team figure{
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+}
+
+.team figcaption{
+    max-width: 100%;
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 1rem;
+    padding: 8px;
+    font-weight: 900;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-style: italic;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid var(--secondary-color);
+}
+
+.map p {
+    color: var(--secondary-color);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.map iframe {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+}
+
+.formulary {
+ padding: 30px;
+ background-color: var(--secondary-color);
+}
+
+.formulary h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+}
+
+fieldset {
+    padding: 1rem;
+    place-items: end;
+}
+
+fieldset legend {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: 900;
+    font-style: italic ;
+    font-family: var(--heading-font);
+}
+
+label{
+    text-align: right;
+    padding-right: 10px;
+    color: var(--secondary-color);
+}
+
+.contact {
+    padding: 10px;
+}
+
+.contact input{
+    margin: 5px 0 15px 0;
+    padding: 5px;
+}
+
+.contact label{
+    font-style: italic;
+    font-weight: 900;
+    font-family: var(--heading-font);
+}
+
+input{
+    width: 100%;
+    height: 25px;
+}
+
+select {
+    width: 100%;
+    height: 25px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    justify-self: start;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+    grid-column: 1 / 3;
+    padding: 10px;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 30%;
+    min-width:30px;
+    height: 30px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-weight: 900;
+    border: 0;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+}
+
+button:hover {
+    background-color: rgb(12, 41, 10);
+    box-shadow: none;
+}
+
+footer {
+    border-top: 1px solid rgb(87, 87, 87);
+    padding: 10px;
+    text-align: center;
+}
+
+.radio_options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.radio_options p {
+    text-align: center;
+    grid-column: 1 / 7;
+    width: 100%;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+.radio_options input{
+    justify-content: right;
+    width: 40px;
+}
+
+.radio_options label{
+    text-align: left;
+}
+
+.message {
+    text-align: center;
+    width: 100%;
+}
+
+.message label {
+    font-style: italic;
+    font-weight: 900;
+    font-family: var(--heading-font);
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.subscribe {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+input[type="checkbox"]{
+    width: 25px;
 }
